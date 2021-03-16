@@ -1,0 +1,30 @@
+@mixin rate-stars {
+  height: 30px;
+  vertical-align: bottom;
+  padding: 0 17px 0 0;
+
+  &:not(:checked) {
+    > input {
+      position: absolute;
+      top: -9999px;
+
+      &:checked ~ label {
+        color: $red;
+        text-align: center;
+      }
+    }
+
+    > label {
+      width: 20px;
+      overflow: hidden;
+      white-space: nowrap;
+      cursor: pointer;
+      font-size: 18px;
+      color: $red;
+
+      &:before {
+        content: '★ ';
+      }
+    }
+  }
+}

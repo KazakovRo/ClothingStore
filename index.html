@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сlothing store</title>
+  <link rel="stylesheet" href="./css/main.min.css">
+  <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="./libraries/glide-3.4.1/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="./libraries/glide-3.4.1/dist/css/glide.theme.min.css">
+</head>
+<body>
+  <main class="main-container">
+    <section class="selected-product">
+      <div class="selected-product__title">
+        <h3 class="selected-product__title_item">For gamers by gamers tee</h3>
+      </div>
+
+      <div class="selected-product__image">
+        <img class="selected-product__image_item" src="./images/products/selected-item.png" alt="product image">
+      </div>
+
+      <div class="selected-product__info-list">
+        <p class="selected-product__product-code">Item #: 701642853695</p>
+
+        <div class="selected-product__product-price">
+          <p class="selected-product__product-price_item1">$29.50</p>
+          <p class="selected-product__product-price_item2">$19.99</p>
+        </div>
+
+        <div class="selected-product__product-actions">
+          <div class="selected-product__product-actions_rating">
+            <label for="star1"></label>
+            <input type="radio" id="star1" name="rate" value="1" />
+            <label for="star2"></label>
+            <input type="radio" id="star2" name="rate" value="2" />
+            <label for="star3"></label>
+            <input type="radio" id="star3" name="rate" value="3" />
+            <label for="star4"></label>
+            <input type="radio" id="star4" name="rate" value="4" />
+            <label for="star5"></label>
+            <input type="radio" id="star5" name="rate" value="5" />
+          </div>
+          <p class="selected-product__product-actions_share-it">Share it!</p>
+
+          <div class="selected-product__product-actions_share-it-popup-wrapper">
+              <div class="selected-product__product-actions_share-it-popup">
+              <div class="triangle"></div>
+              <img src="./images/icons/fcbk.png" alt="facebook icon">
+              <img src="./images/icons/twtr.png" alt="twitter icon">
+              <img src="./images/icons/pntrst.png" alt="pinterest icon">
+              <img src="./images/icons/ytbe.png" alt="you-tube icon">
+              <img src="./images/icons/close.png" alt="close icon">
+            </div>
+          </div>
+        </div>
+
+        <p class="selected-product__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+        <div class="selected-product__sizes swatches">
+          <p>Size:</p>
+          <div class="selected-product__size size_xs swatch-variant">
+            <p>xs</p>
+          </div>
+          <div class="selected-product__size size_s swatch-variant">
+            <p>s</p>
+          </div>
+          <div class="selected-product__size size_m active-circle swatch-variant">
+            <p>m</p>
+          </div>
+        </div>
+
+        <div class="selected-product__colors swatches">
+          <p>Color:</p>
+          <div class="selected-product__color color_blue active-circle swatch-variant"></div>
+          <div class="selected-product__color color_green swatch-variant"></div>
+          <div class="selected-product__color color_red swatch-variant"></div>
+          <div class="selected-product__color color_purple swatch-variant"></div>
+        </div>
+
+        <button class="selected-product__cart-btn">add to cart</button>
+      </div>
+    </section>
+
+
+    <section class="other-products">
+      <h2 class="other-product__title">you may also like</h2>
+      
+      <div class="other-products__cards">
+        <div class="other-products__card-item">
+          <img class="other-products__card-item_image" src="./images/products/img1.png" alt="product image">
+          <div class="other-products__card-item_price">
+            <p class="other-products__card-item_price1">$29.99</p>
+            <p class="other-products__card-item_price2">$19.99</p>
+          </div>
+          <p class="other-products__card-item_description">For gamers by gamers tee</p>
+        </div>
+
+        <div class="other-products__card-item">
+          <img class="other-products__card-item_image" src="./images/products/img2.png" alt="product image">
+          <div class="other-products__card-item_price">
+            <p class="other-products__card-item_price1">$22.00</p>
+          </div>
+          <p class="other-products__card-item_description">Pro gamer slash hoodie</p>
+        </div>
+
+        <div class="other-products__card-item">
+          <img class="other-products__card-item_image" src="./images/products/img3.png" alt="product image">
+          <div class="other-products__card-item_price">
+            <p class="other-products__card-item_price1">$24.99</p>
+          </div>
+          <p class="other-products__card-item_description">Spectroom gamer tee</p>
+        </div>
+
+        <div class="other-products__card-item">
+          <img class="other-products__card-item_image" src="./images/products/img4.png" alt="product image">
+          <div class="other-products__card-item_price">
+            <p class="other-products__card-item_price1">$29.99</p>
+            <p class="other-products__card-item_price2">$19.99</p>
+          </div>
+          <p class="other-products__card-item_description">Gaming for good tee</p>
+        </div>
+
+        <div class="other-products__card-item">
+          <img class="other-products__card-item_image" src="./images/products/img5.png" alt="product image">
+          <div class="other-products__card-item_price">
+            <p class="other-products__card-item_price1">$60.00</p>
+          </div>
+          <p class="other-products__card-item_description">Spectroom web hoodie</p>
+        </div>
+
+        <div class="other-products__card-item">
+          <img class="other-products__card-item_image" src="./images/products/img6.png" alt="product image">
+          <div class="other-products__card-item_price">
+            <p class="other-products__card-item_price1">$54.00</p>
+          </div>
+          <p class="other-products__card-item_description">Spectroom varsity hoodie</p>
+        </div>
+      </div>
+
+      <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">
+              <img class="other-products__card-item_image" src="./images/products/img1.png" alt="product image">
+              <div class="other-products__card-item_price">
+                <p class="other-products__card-item_price1">$29.99</p>
+                <p class="other-products__card-item_price2">$19.99</p>
+              </div>
+              <p class="other-products__card-item_description">For gamers by gamers tee</p>
+            </li>
+            <li class="glide__slide">
+              <img class="other-products__card-item_image" src="./images/products/img2.png" alt="product image">
+              <div class="other-products__card-item_price">
+                <p class="other-products__card-item_price1">$22.00</p>
+              </div>
+              <p class="other-products__card-item_description">Pro gamer slash hoodie</p>
+            </li>
+            <li class="glide__slide">
+              <img class="other-products__card-item_image" src="./images/products/img3.png" alt="product image">
+              <div class="other-products__card-item_price">
+                <p class="other-products__card-item_price1">$24.99</p>
+              </div>
+              <p class="other-products__card-item_description">Spectroom gamer tee</p>
+            </li>
+            <li class="glide__slide">
+              <img class="other-products__card-item_image" src="./images/products/img4.png" alt="product image">
+              <div class="other-products__card-item_price">
+                <p class="other-products__card-item_price1">$29.99</p>
+                <p class="other-products__card-item_price2">$19.99</p>
+              </div>
+              <p class="other-products__card-item_description">Gaming for good tee</p>
+            </li>
+            <li class="glide__slide">
+              <img class="other-products__card-item_image" src="./images/products/img5.png" alt="product image">
+              <div class="other-products__card-item_price">
+                <p class="other-products__card-item_price1">$60.00</p>
+              </div>
+              <p class="other-products__card-item_description">Spectroom web hoodie</p>
+            </li>
+            <li class="glide__slide">
+              <img class="other-products__card-item_image" src="./images/products/img6.png" alt="product image">
+              <div class="other-products__card-item_price">
+                <p class="other-products__card-item_price1">$54.00</p>
+              </div>
+              <p class="other-products__card-item_description">Spectroom varsity hoodie</p>
+            </li>
+          </ul>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+          <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+            <img src="./images/icons/left.png" alt="arrow">
+          </button>
+          <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+            <img src="./images/icons/right.png" alt="arrow">
+          </button>
+        </div>
+      </div>
+
+    </section>
+  </main>
+  
+  <script src="../libraries/glide-3.4.1/dist/glide.min.js"></script>
+  <script src="./js/slider.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>

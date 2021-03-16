@@ -1,0 +1,17 @@
+@mixin vertical-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin picker-styles {
+  margin: 0 7px;
+  width: 39px;
+  height: 39px;
+  border: 1px solid $circle-border;
+  border-radius: 50%;
+  cursor: pointer;
+  color: $dark-blue;
+  font-size: 12px;
+  font-weight: bold;
+}
