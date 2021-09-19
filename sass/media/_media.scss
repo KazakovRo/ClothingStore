@@ -138,13 +138,13 @@
                 text-align: center;
 
                 > p {
-                display: none !important;
+                  display: none !important;
 
-                &:last-child {
-                  display: block !important;
-                  padding: 0;
+                  &:last-child {
+                    display: block !important;
+                    padding: 0;
+                  }
                 }
-              }
 
                 .other-products__card-item_price1 {
                   @include price1;

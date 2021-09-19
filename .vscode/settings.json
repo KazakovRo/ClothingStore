@@ -1,3 +1,101 @@
 {
-  "liveServer.settings.port": 5501
+  "liveSassCompile.settings.formats": [
+    {
+      "extensionName": ".css",
+      "format": "compressed",
+      "savePath": "/css"
+    },
+    {
+      "extensionName": ".min.css",
+      "format": "compressed",
+      "savePath": "/css"
+    }
+  ],
+  "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+  "liveSassCompile.settings.generateMap": true,
+  "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"],
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+    "activityBarBadge.background": "#FFA000",
+    "activityBar.activeBorder": "#FFA000",
+    "list.activeSelectionForeground": "#FFA000",
+    "list.inactiveSelectionForeground": "#FFA000",
+    "list.highlightForeground": "#FFA000",
+    "scrollbarSlider.activeBackground": "#FFA00050",
+    "editorSuggestWidget.highlightForeground": "#FFA000",
+    "textLink.foreground": "#FFA000",
+    "progressBar.background": "#FFA000",
+    "pickerGroup.foreground": "#FFA000",
+    "tab.activeBorder": "#FFA000",
+    "notificationLink.foreground": "#FFA000",
+    "editorWidget.resizeBorder": "#FFA000",
+    "editorWidget.border": "#FFA000",
+    "settings.modifiedItemIndicator": "#FFA000",
+    "settings.headerForeground": "#FFA000",
+    "panelTitle.activeBorder": "#FFA000",
+    "breadcrumb.activeSelectionForeground": "#FFA000",
+    "menu.selectionForeground": "#FFA000",
+    "menubar.selectionForeground": "#FFA000",
+    "editor.findMatchBorder": "#FFA000",
+    "selection.background": "#FFA00040",
+    "statusBarItem.remoteBackground": "#FFA000"
+  },
+  "files.associations": {
+    "*.scss": "scss"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "prettier.arrowParens": "avoid",
+  "prettier.printWidth": 120,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
+  "prettier.useTabs": false,
+  "prettier.jsxSingleQuote": true,
+  "eslint.format.enable": true,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.maxTokenizationLineLength": 2000,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "emmet.triggerExpansionOnTab": true,
+  "explorer.confirmDragAndDrop": false,
+  "materialTheme.accent": "Yellow",
+  "quokka.colors": {
+    "covered": "#62b455",
+    "errorPath": "#ffa0a0",
+    "errorSource": "#fe536a",
+    "notCovered": "#cccccc",
+    "partiallyCovered": "#d2a032"
+  },
+  "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true
+  },
+  "workbench.startupEditor": "none",
+  "json.maxItemsComputed": 500000
 }

@@ -24,7 +24,7 @@
         text-transform: uppercase;
         color: $dark-blue;
         font-family: $other-font;
-        font-size: 24px;
+        font-size: $font-lg + 4;
       }
     }
 
@@ -41,7 +41,7 @@
 
       .selected-product__product-code {
         color: $product-code;
-        font-size: 10px;
+        font-size: $font-xs;
       }
 
       .selected-product__product-price {
@@ -83,7 +83,7 @@
 
       .selected-product__description {
         color: $description;
-        font-size: 12px;
+        font-size: $font-sm;
         line-height: 16px;
       }
 
@@ -108,7 +108,7 @@
 
       .selected-product__colors {
         color: $dark-blue;
-        font-size: 14px;
+        font-size: $font-md - 1;
         font-weight: bold;
         display: flex;
         margin: 15px 0;
@@ -151,7 +151,7 @@
         width: 100%;
         border-radius: 30px;
         border: none;
-        font-size: 14px;
+        font-size: $font-md - 1;
         font-weight: bold;
         text-transform: uppercase;
         color: $dark-blue;
@@ -181,7 +181,7 @@
     .other-product__title {
       text-transform: uppercase;
       color: $dark-blue;
-      font-size: 22px;
+      font-size: $font-lg + 2;
       font-weight: bold;
       margin: 0 0 20px 0;
     }
@@ -194,6 +194,10 @@
 
       .other-products__card-item {
         position: relative;
+
+        &:hover .other-products__card-item_description {
+          color: $price-background-clr;
+        }
 
         .other-products__card-item_description {
           @include card-description;
@@ -217,5 +221,9 @@
     .glide {
       display: none;
     }
+  }
+
+  .discount {
+    text-decoration: line-through;
   }
 }

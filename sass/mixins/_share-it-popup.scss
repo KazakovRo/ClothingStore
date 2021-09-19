@@ -2,7 +2,7 @@
   .selected-product__product-actions_share-it {
     display: inline-block;
     color: $blue;
-    font-size: 18px;
+    font-size: $font-md + 3;
     font-weight: bold;
     cursor: pointer;
     outline: none;

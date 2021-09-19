@@ -1,3 +1,4 @@
+// variables
 $dark-blue: #2c303d;
 $product-code: #87898e;
 $blue: #2c87ce;
@@ -10,9 +11,18 @@ $green-circle-clr: #96c795;
 $red-circle-clr: #ce92a1;
 $purple-circle-clr: #aa93cf;
 $button-clr: #8ae6cf;
+$price-background-clr: #8ae6cf;
 $white: #fff;
 
+// animations
 $trans: 0.1s ease-in;
+
+// fonts
+$font-xs: 10px;
+$font-sm: 12px;
+$font-md: 15px;
+$font-lg: 20px;
+$font-xl: 32px;
 
 $main-font: 'Open Sans', sans-serif;
 $other-font: 'Oswald', sans-serif;

@@ -1,6 +1,6 @@
 @mixin prices-container {
-  background-color: $button-clr;
-  font-size: 16px;
+  background-color: $price-background-clr;
+  font-size: $font-md + 1;
   color: $red;
   font-weight: bold;
   width: auto;
@@ -20,7 +20,7 @@
 }
 
 @mixin card-description {
-  font-size: 14px;
+  font-size: $font-md - 1;
   font-weight: bold;
   text-transform: uppercase;
   color: $description;

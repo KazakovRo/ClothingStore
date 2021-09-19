@@ -4,23 +4,21 @@
   padding: 0 17px 0 0;
 
   &:not(:checked) {
-    > input {
-      position: absolute;
-      top: -9999px;
-
-      &:checked ~ label {
-        color: $red;
-        text-align: center;
-      }
-    }
-
     > label {
-      width: 20px;
       overflow: hidden;
       white-space: nowrap;
       cursor: pointer;
-      font-size: 18px;
+      font-size: $font-md + 3;
       color: $red;
+
+      > input {
+        position: absolute;
+        top: -100%;
+        left: -100%;
+        opacity: 0;
+        pointer-events: none;
+        z-index: -1;
+      }
 
       &:before {
         content: '★ ';
